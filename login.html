@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cybot.ai - Empowering Intelligent Automation </title>
+
+    <!-- Font Awesome -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link href="https://fonts.cdnfonts.com/css/arupala-grotesk" rel="stylesheet">
+                
+              
+<!-- MDB -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css"
+rel="stylesheet"
+/>
+
+<link
+rel="stylesheet"
+href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css"
+/>
+
+<link rel="icon" href="img/logo.png" type="image/png" />
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<style>
+    @import url('https://fonts.cdnfonts.com/css/arupala-grotesk');
+
+    body{
+        font-family: 'Arupala Grotesk', sans-serif;
+                                                
+    }
+
+
+    .navbar {
+    --mdb-navbar-box-shadow: none
+    --mdb-navbar-padding-top: 0.5625rem;
+    --mdb-navbar-brand-img-margin-right: none;
+    box-shadow: none;
+    padding-top: none;
+}
+
+
+.navbar-nav > li{
+    padding-left:10px;
+    padding-right:10px;
+  }
+
+  .navbar-nav > li{
+    margin-left:20px;
+    margin-right:20px;
+  }
+
+
+/* If the screen size is 1200px wide or more, set the font-size to 80px */
+@media (min-width: 1200px) {
+  .responsive-font-example {
+    font-size: 39px;
+  }
+}
+/* If the screen size is smaller than 1200px, set the font-size to 80px */
+@media (max-width: 1199.98px) {
+  .responsive-font-example {
+    font-size: 30px;
+  }
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    background-color: black;
+    color:white;
+    border-radius: 0px 12px 12px 0px;
+    border-bottom: 3px solid #F64D00;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link:hover {
+   
+    border-radius:12px;
+}
+
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color:#065CE1;
+  border-radius:60px;
+  cursor: pointer;
+  padding: 15px;
+  color:white;
+  border-radius: 15px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+.custom-btn {
+    padding: 13px;
+    background-color: #065CE1;
+    border-radius: 10px;
+    border: 2px solid white;
+    color: white;
+    text-transform: none;
+    font-size: 19px;
+    width: 100%;
+    outline: none; /* Prevents resizing on click */
+}
+
+
+  /* Custom CSS for equal height */
+  .equal-height-card {
+        min-height: 400px; /* Adjust height as needed */
+    }
+
+    
+
+@media (max-width: 575.98px) {
+  .logo-image  {
+            display: none;
+        }
+    }
+
+    @media (min-width: 576px) and (max-width: 767.98px) {
+      .logo-image {
+            display: none;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 991.98px) {
+      .logo-image {
+            display: none;
+        }
+    }
+
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+      .logo-image {
+            display: none;
+        }
+    }
+/* Flex container to align sign-up text and icons */
+.sign-up-container {
+    display: flex;
+    align-items: center;
+    gap: 17px; /* Space between the two flex items */
+}
+
+.sign-up-text, .sign-up-icons {
+    flex: 1; /* Make both containers take up equal width */
+    text-align: center; /* Center content within each flex item */
+}
+
+.sign-up-icons a {
+    margin-left: 15px; /* Space between icons */
+}
+
+</style>
+
+
+</head>
+<body style="background-image: url('img/bg.png'); background-position: center; background-size: cover; background-repeat: no-repeat;">
+
+
+    <div class="d-flex align-items-center justify-content-center" style="min-height: 100vh;">
+
+        <div class="container">
+            <!-- Centered content section with logo -->
+            <div class="text-center mx-auto" style="max-width: 800px;">
+                <!-- Logo centered above the content -->
+                <div class="mb-4">
+                    <img src="img/logo.png" alt="Logo" class="img-fluid" style="max-width: 250px;">
+                </div>
+
+                </div>
+
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6 mb-3">
+                <h1 class="responsive-font-example" style="color:black; line-height: 111.6%;">
+                    Sign In 
+                </h1>
+                <p style="font-size: 20px; color:black;">
+       Good to see you again! <strong style="color:#D506E7;">Welcome back. </strong>
+                </p>
+                <hr>
+<form action="dashboard.html" method="post">
+             
+
+                <label> Email </label>
+                <div class="form-group">
+<input type="email" class="form-control" name="email" style="padding:13px;">
+                </div>
+
+                <br>
+
+                
+
+                <label> Password </label>
+                <div class="form-group">
+<input type="password" class="form-control" name="password"  style="padding:13px;">
+                </div>
+
+
+                <br>
+
+                <input type="submit" class="btn btn-primary custom-btn" value="Sign In">
+                
+
+                </form>
+
+                <div class="mt-4">
+
+                    <H6 style="color:black; text-align: center;"> Don't have an account ? <strong style="color:#065CE1;"> <a href="signup.html"> Sign Up </a>  </strong></H6>
+                </div>
+
+                <hr>
+               
+               
+                <div class="sign-up-container">
+                  <!-- Sign up text -->
+                  <div class="sign-up-text">
+                      <h5 style="color:black;">Sign in with</h5>
+                  </div>
+              
+                  <!-- Icons -->
+                  <div class="sign-up-icons">
+                      <a href="#"><img src="img/googleicon.svg" class="img-fluid" width="30px"></a> 
+                      <a href="#"><img src="img/facebookicon.svg" class="img-fluid" width="30px"></a> 
+                      <a href="#"><img src="img/linkedinicon.svg" class="img-fluid" width="30px"></a>
+                  </div>
+              </div>
+              
+                    <hr>
+                   
+
+                
+
+            </div>
+    
+            <div class="col-md-6 mb-3" >
+                <img src="img/robot71.png" class="img-fluid w-100 logo-image">
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+  
+    
+  <script>
+    // Get the button
+    let mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+    
+    
+      <!-- MDB -->
+  <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.js"
+  ></script>
+  </body>
+  </html>
